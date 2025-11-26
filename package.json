@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "express": "^5.1.0",
+    "express-handlebars": "^8.0.4",
     "fs": "^0.0.1-security"
   }
 }

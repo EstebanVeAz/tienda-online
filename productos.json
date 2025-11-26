@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "El Principito",
+    "descripcion": "Un clásico de la literatura infantil y reflexiva.",
+    "precio": 12000
+  },
+  {
+    "id": 2,
+    "nombre": "1984",
+    "descripcion": "Novela distópica de George Orwell.",
+    "precio": 15000
+  },
+  {
+    "id": 3,
+    "nombre": "Cuaderno Universitario",
+    "descripcion": "Cuaderno de 100 hojas, tapa blanda.",
+    "precio": 2500
+  },
+  {
+    "id": 4,
+    "nombre": "Set de lápices de colores (24)",
+    "descripcion": "Caja con 24 lápices de colores.",
+    "precio": 4500
+  }
+]

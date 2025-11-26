@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>{{titulo}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>{{titulo}}</h1>
+
+  {{#if productos.length}}
+    {{#each productos}}
+      <div class="producto">
+        <strong>{{this.nombre}}</strong> — ${{this.precio}}<br>
+        <small>{{this.descripcion}}</small>
+      </div>
+    {{/each}}
+  {{else}}
+    <p>No hay productos aún.</p>
+  {{/if}}
+
+  <p><a href="/">Volver al inicio</a></p>
+</body>
+</html>
